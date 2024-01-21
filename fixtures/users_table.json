@@ -1,0 +1,53 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$Fe8wionhhwsTJHoEZ5l3TE$qUBgzNmbynVX6xi2/OMGaUFToFtl4wwPY1lCK5v4/VQ=",
+    "last_login": "2024-01-21T11:37:56.289Z",
+    "first_name": "Admin",
+    "last_name": "Adminov",
+    "email": "admin@yandex.ru",
+    "phone": "+79999999999",
+    "image": "users/avatar_default.jpeg",
+    "is_active": true,
+    "is_superuser": true,
+    "is_staff": true,
+    "is_admin": true
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$11iJg9hIDobSlat9ddaaOn$fQCHXISfLesRxXqVu9W4hKZckDLBAqNIG0r4kqbp7mE=",
+    "last_login": null,
+    "first_name": "user_1",
+    "last_name": "user_1",
+    "email": "1@yandex.ru",
+    "phone": "+79999999999",
+    "image": "users/avatar_default.jpeg",
+    "is_active": true,
+    "is_superuser": false,
+    "is_staff": false,
+    "is_admin": false
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$FaDoYBm6NHsJCUPSPnk8GK$uMCn9usEbpFSs55mQUPLd7Pt9jkI+/03X2YPv2bwcJ4=",
+    "last_login": null,
+    "first_name": "user_2",
+    "last_name": "user_2",
+    "email": "2@yandex.ru",
+    "phone": "+79999999999",
+    "image": "users/avatar_default.jpeg",
+    "is_active": false,
+    "is_superuser": false,
+    "is_staff": false,
+    "is_admin": false
+  }
+}
+]
