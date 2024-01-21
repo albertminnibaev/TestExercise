@@ -1,0 +1,224 @@
+[
+{
+  "model": "net.net",
+  "pk": 1,
+  "fields": {
+    "title": "Завод №1",
+    "email": "1@example.com",
+    "country": "Китай",
+    "city": "Шанхай",
+    "treet": "Улица №1",
+    "house": 1,
+    "net": null,
+    "debt": null,
+    "created_at": "2024-01-21T11:50:12.437Z",
+    "type": "Завод",
+    "level": 0
+  }
+},
+{
+  "model": "net.net",
+  "pk": 2,
+  "fields": {
+    "title": "Завод №2",
+    "email": "2@example.com",
+    "country": "Россия",
+    "city": "Москва",
+    "treet": "Улица №1",
+    "house": 1,
+    "net": null,
+    "debt": null,
+    "created_at": "2024-01-21T11:54:07.389Z",
+    "type": "Завод",
+    "level": 0
+  }
+},
+{
+  "model": "net.net",
+  "pk": 3,
+  "fields": {
+    "title": "Завод №3",
+    "email": "3@example.com",
+    "country": "США",
+    "city": "Детройт",
+    "treet": "Улица №1",
+    "house": 1,
+    "net": null,
+    "debt": null,
+    "created_at": "2024-01-21T11:59:11.203Z",
+    "type": "Завод",
+    "level": 0
+  }
+},
+{
+  "model": "net.net",
+  "pk": 6,
+  "fields": {
+    "title": "Мир электроники",
+    "email": "7@example.com",
+    "country": "Китай",
+    "city": "Шанхай",
+    "treet": "Улица №1",
+    "house": 1,
+    "net": 1,
+    "debt": "100.00",
+    "created_at": "2024-01-21T12:20:35.391Z",
+    "type": "Розничная сеть",
+    "level": 1
+  }
+},
+{
+  "model": "net.net",
+  "pk": 7,
+  "fields": {
+    "title": "ИП Иванов",
+    "email": "8@example.com",
+    "country": "Россия",
+    "city": "Ульяновск",
+    "treet": "Улица №1",
+    "house": 1,
+    "net": 2,
+    "debt": "50.00",
+    "created_at": "2024-01-21T12:22:46.774Z",
+    "type": "Индивидуальный предприниматель",
+    "level": 1
+  }
+},
+{
+  "model": "net.net",
+  "pk": 8,
+  "fields": {
+    "title": "Электрникс",
+    "email": "9@example.com",
+    "country": "Россия",
+    "city": "Красноярск",
+    "treet": "Улица №1",
+    "house": 1,
+    "net": 7,
+    "debt": "200.00",
+    "created_at": "2024-01-21T12:27:15.021Z",
+    "type": "Розничная сеть",
+    "level": 2
+  }
+},
+{
+  "model": "net.product",
+  "pk": 1,
+  "fields": {
+    "title": "Телевизор",
+    "model": "SAMSUNG",
+    "product_launch_date": "2024-01-21",
+    "net": 1
+  }
+},
+{
+  "model": "net.product",
+  "pk": 2,
+  "fields": {
+    "title": "Стиральная машина",
+    "model": "LG",
+    "product_launch_date": "2024-01-21",
+    "net": 1
+  }
+},
+{
+  "model": "net.product",
+  "pk": 3,
+  "fields": {
+    "title": "Телевизор",
+    "model": "Бештау",
+    "product_launch_date": "2024-01-21",
+    "net": 2
+  }
+},
+{
+  "model": "net.product",
+  "pk": 4,
+  "fields": {
+    "title": "фен",
+    "model": "Scarlet",
+    "product_launch_date": "2024-01-21",
+    "net": 2
+  }
+},
+{
+  "model": "net.product",
+  "pk": 5,
+  "fields": {
+    "title": "Ноутбук",
+    "model": "Apple",
+    "product_launch_date": "2024-01-21",
+    "net": 3
+  }
+},
+{
+  "model": "net.product",
+  "pk": 6,
+  "fields": {
+    "title": "Смартфон",
+    "model": "Apple",
+    "product_launch_date": "2024-01-21",
+    "net": 3
+  }
+},
+{
+  "model": "net.product",
+  "pk": 7,
+  "fields": {
+    "title": "Телевизор",
+    "model": "SAMSUNG",
+    "product_launch_date": "2024-01-21",
+    "net": 6
+  }
+},
+{
+  "model": "net.product",
+  "pk": 8,
+  "fields": {
+    "title": "Стиральная машина",
+    "model": "LG",
+    "product_launch_date": "2024-01-21",
+    "net": 6
+  }
+},
+{
+  "model": "net.product",
+  "pk": 9,
+  "fields": {
+    "title": "фен",
+    "model": "Scarlet",
+    "product_launch_date": "2024-01-21",
+    "net": 7
+  }
+},
+{
+  "model": "net.product",
+  "pk": 10,
+  "fields": {
+    "title": "Телевизор",
+    "model": "Бештау",
+    "product_launch_date": "2024-01-21",
+    "net": 7
+  }
+},
+{
+  "model": "net.product",
+  "pk": 11,
+  "fields": {
+    "title": "фен",
+    "model": "Scarlet",
+    "product_launch_date": "2024-01-21",
+    "net": 8
+  }
+},
+{
+  "model": "net.product",
+  "pk": 12,
+  "fields": {
+    "title": "Телевизор",
+    "model": "Бештау",
+    "product_launch_date": "2024-01-21",
+    "net": 8
+  }
+}
+]

@@ -16,10 +16,7 @@ class NetAdmin(admin.ModelAdmin):
     list_filter = ('city',)
     actions = [make_published]
 
-    # def object_link(self, obj):
-    #     return obj.provider
-
 
 @admin.register(Product)
-class NetAdmin(admin.ModelAdmin):
+class ProductAdmin(admin.ModelAdmin):
     list_display = ('id', 'title', 'model', 'product_launch_date', 'net')
